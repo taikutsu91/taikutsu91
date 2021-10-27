@@ -1,0 +1,30 @@
+baseURL = "https://taikutsu91.github.io/"
+languageCode = "pt-BR"
+title = "I'm Raul"
+theme = "github-style"
+copyright = "Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a>"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[permalinks]
+  post = "/:filename/"
+
+
+[params]
+  author = "Raul Avelino"
+  description = "I hope one day you have the courage to run away from everything that makes you miserable."
+  github = "taikutsu91"
+  avatar = '/images/profile.png'
+  linkedin = "raul-avelino-959b16149"
+  email = "ravels1991@gmail.com"
+  url = "https://taikutsu91.github.io/"
+  keywords = "blog, google analytics"
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "Brasil"
+  userStatusEmoji = "😅"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+  
